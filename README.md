@@ -1,6 +1,6 @@
 # LMLReportTableView
 Report function tableview.     举报tableView，可自定义输入举报内容，选择举报类型
-
+<br>QQ交流群：566966977   不懂可以在群里讨论
 
 ##效果展示图
 
