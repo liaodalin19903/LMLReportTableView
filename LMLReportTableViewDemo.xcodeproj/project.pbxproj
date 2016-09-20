@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480154C11D90E04500D996B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154C01D90E04500D996B1 /* main.m */; };
+		480154C41D90E04500D996B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154C31D90E04500D996B1 /* AppDelegate.m */; };
+		480154C71D90E04500D996B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154C61D90E04500D996B1 /* ViewController.m */; };
+		480154CA1D90E04600D996B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480154C81D90E04600D996B1 /* Main.storyboard */; };
+		480154CC1D90E04600D996B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480154CB1D90E04600D996B1 /* Assets.xcassets */; };
+		480154CF1D90E04600D996B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480154CD1D90E04600D996B1 /* LaunchScreen.storyboard */; };
+		480154DA1D90E04600D996B1 /* LMLReportTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154D91D90E04600D996B1 /* LMLReportTableViewDemoTests.m */; };
+		480154E51D90E04600D996B1 /* LMLReportTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154E41D90E04600D996B1 /* LMLReportTableViewDemoUITests.m */; };
+		480154FF1D90E07A00D996B1 /* LMLReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154F41D90E07A00D996B1 /* LMLReportCell.m */; };
+		480155001D90E07A00D996B1 /* LMLReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480154F51D90E07A00D996B1 /* LMLReportCell.xib */; };
+		480155011D90E07A00D996B1 /* LMLReportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154F71D90E07A00D996B1 /* LMLReportController.m */; };
+		480155021D90E07A00D996B1 /* LMLReportController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480154F81D90E07A00D996B1 /* LMLReportController.xib */; };
+		480155031D90E07A00D996B1 /* LMLReportHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154FA1D90E07A00D996B1 /* LMLReportHeadView.m */; };
+		480155041D90E07A00D996B1 /* LMLReportHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480154FB1D90E07A00D996B1 /* LMLReportHeadView.xib */; };
+		480155051D90E07A00D996B1 /* checkR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480154FD1D90E07A00D996B1 /* checkR@2x.png */; };
+		480155061D90E07A00D996B1 /* checkR@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480154FE1D90E07A00D996B1 /* checkR@3x.png */; };
+		480155091D90E36D00D996B1 /* LML_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 480155081D90E36D00D996B1 /* LML_Util.m */; };
+		4801550B1D90E4DA00D996B1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4801550A1D90E4DA00D996B1 /* Media.xcassets */; };
+		4801550F1D90E53A00D996B1 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801550E1D90E53A00D996B1 /* UIViewExt.m */; };
+		480155131D90E60A00D996B1 /* WLAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480155121D90E60A00D996B1 /* WLAlertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480154D61D90E04600D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480154B41D90E04400D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480154BB1D90E04500D996B1;
+			remoteInfo = LMLReportTableViewDemo;
+		};
+		480154E11D90E04600D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480154B41D90E04400D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480154BB1D90E04500D996B1;
+			remoteInfo = LMLReportTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480154BC1D90E04500D996B1 /* LMLReportTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLReportTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480154C01D90E04500D996B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480154C21D90E04500D996B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480154C31D90E04500D996B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480154C51D90E04500D996B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480154C61D90E04500D996B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480154C91D90E04600D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480154CB1D90E04600D996B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480154CE1D90E04600D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480154D01D90E04600D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154D51D90E04600D996B1 /* LMLReportTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLReportTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480154D91D90E04600D996B1 /* LMLReportTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLReportTableViewDemoTests.m; sourceTree = "<group>"; };
+		480154DB1D90E04600D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154E01D90E04600D996B1 /* LMLReportTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLReportTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480154E41D90E04600D996B1 /* LMLReportTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLReportTableViewDemoUITests.m; sourceTree = "<group>"; };
+		480154E61D90E04600D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154F31D90E07A00D996B1 /* LMLReportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLReportCell.h; sourceTree = "<group>"; };
+		480154F41D90E07A00D996B1 /* LMLReportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLReportCell.m; sourceTree = "<group>"; };
+		480154F51D90E07A00D996B1 /* LMLReportCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLReportCell.xib; sourceTree = "<group>"; };
+		480154F61D90E07A00D996B1 /* LMLReportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLReportController.h; sourceTree = "<group>"; };
+		480154F71D90E07A00D996B1 /* LMLReportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLReportController.m; sourceTree = "<group>"; };
+		480154F81D90E07A00D996B1 /* LMLReportController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLReportController.xib; sourceTree = "<group>"; };
+		480154F91D90E07A00D996B1 /* LMLReportHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLReportHeadView.h; sourceTree = "<group>"; };
+		480154FA1D90E07A00D996B1 /* LMLReportHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLReportHeadView.m; sourceTree = "<group>"; };
+		480154FB1D90E07A00D996B1 /* LMLReportHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLReportHeadView.xib; sourceTree = "<group>"; };
+		480154FD1D90E07A00D996B1 /* checkR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkR@2x.png"; sourceTree = "<group>"; };
+		480154FE1D90E07A00D996B1 /* checkR@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkR@3x.png"; sourceTree = "<group>"; };
+		480155071D90E36D00D996B1 /* LML_Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LML_Util.h; sourceTree = "<group>"; };
+		480155081D90E36D00D996B1 /* LML_Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LML_Util.m; sourceTree = "<group>"; };
+		4801550A1D90E4DA00D996B1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		4801550D1D90E53A00D996B1 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		4801550E1D90E53A00D996B1 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		480155111D90E60A00D996B1 /* WLAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAlertViewController.h; sourceTree = "<group>"; };
+		480155121D90E60A00D996B1 /* WLAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAlertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480154B91D90E04500D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154D21D90E04600D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154DD1D90E04600D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480154B31D90E04400D996B1 = {
+			isa = PBXGroup;
+			children = (
+				480154F21D90E07A00D996B1 /* LMLReportTableView */,
+				480154BE1D90E04500D996B1 /* LMLReportTableViewDemo */,
+				480154D81D90E04600D996B1 /* LMLReportTableViewDemoTests */,
+				480154E31D90E04600D996B1 /* LMLReportTableViewDemoUITests */,
+				480154BD1D90E04500D996B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		480154BD1D90E04500D996B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480154BC1D90E04500D996B1 /* LMLReportTableViewDemo.app */,
+				480154D51D90E04600D996B1 /* LMLReportTableViewDemoTests.xctest */,
+				480154E01D90E04600D996B1 /* LMLReportTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480154BE1D90E04500D996B1 /* LMLReportTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				480154C21D90E04500D996B1 /* AppDelegate.h */,
+				480154C31D90E04500D996B1 /* AppDelegate.m */,
+				480154C51D90E04500D996B1 /* ViewController.h */,
+				480154C61D90E04500D996B1 /* ViewController.m */,
+				480154C81D90E04600D996B1 /* Main.storyboard */,
+				480154CB1D90E04600D996B1 /* Assets.xcassets */,
+				480154CD1D90E04600D996B1 /* LaunchScreen.storyboard */,
+				480154D01D90E04600D996B1 /* Info.plist */,
+				480154BF1D90E04500D996B1 /* Supporting Files */,
+			);
+			path = LMLReportTableViewDemo;
+			sourceTree = "<group>";
+		};
+		480154BF1D90E04500D996B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480154C01D90E04500D996B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480154D81D90E04600D996B1 /* LMLReportTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				480154D91D90E04600D996B1 /* LMLReportTableViewDemoTests.m */,
+				480154DB1D90E04600D996B1 /* Info.plist */,
+			);
+			path = LMLReportTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		480154E31D90E04600D996B1 /* LMLReportTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				480154E41D90E04600D996B1 /* LMLReportTableViewDemoUITests.m */,
+				480154E61D90E04600D996B1 /* Info.plist */,
+			);
+			path = LMLReportTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		480154F21D90E07A00D996B1 /* LMLReportTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4801550A1D90E4DA00D996B1 /* Media.xcassets */,
+				4801550C1D90E53A00D996B1 /* UIViewExt */,
+				480155101D90E60A00D996B1 /* WLAlertViewController */,
+				480155071D90E36D00D996B1 /* LML_Util.h */,
+				480155081D90E36D00D996B1 /* LML_Util.m */,
+				480154F31D90E07A00D996B1 /* LMLReportCell.h */,
+				480154F41D90E07A00D996B1 /* LMLReportCell.m */,
+				480154F51D90E07A00D996B1 /* LMLReportCell.xib */,
+				480154F61D90E07A00D996B1 /* LMLReportController.h */,
+				480154F71D90E07A00D996B1 /* LMLReportController.m */,
+				480154F81D90E07A00D996B1 /* LMLReportController.xib */,
+				480154F91D90E07A00D996B1 /* LMLReportHeadView.h */,
+				480154FA1D90E07A00D996B1 /* LMLReportHeadView.m */,
+				480154FB1D90E07A00D996B1 /* LMLReportHeadView.xib */,
+				480154FC1D90E07A00D996B1 /* resource */,
+			);
+			path = LMLReportTableView;
+			sourceTree = "<group>";
+		};
+		480154FC1D90E07A00D996B1 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				480154FD1D90E07A00D996B1 /* checkR@2x.png */,
+				480154FE1D90E07A00D996B1 /* checkR@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		4801550C1D90E53A00D996B1 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				4801550D1D90E53A00D996B1 /* UIViewExt.h */,
+				4801550E1D90E53A00D996B1 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		480155101D90E60A00D996B1 /* WLAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				480155111D90E60A00D996B1 /* WLAlertViewController.h */,
+				480155121D90E60A00D996B1 /* WLAlertViewController.m */,
+			);
+			path = WLAlertViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480154BB1D90E04500D996B1 /* LMLReportTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480154E91D90E04600D996B1 /* Build configuration list for PBXNativeTarget "LMLReportTableViewDemo" */;
+			buildPhases = (
+				480154B81D90E04500D996B1 /* Sources */,
+				480154B91D90E04500D996B1 /* Frameworks */,
+				480154BA1D90E04500D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMLReportTableViewDemo;
+			productName = LMLReportTableViewDemo;
+			productReference = 480154BC1D90E04500D996B1 /* LMLReportTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		480154D41D90E04600D996B1 /* LMLReportTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480154EC1D90E04600D996B1 /* Build configuration list for PBXNativeTarget "LMLReportTableViewDemoTests" */;
+			buildPhases = (
+				480154D11D90E04600D996B1 /* Sources */,
+				480154D21D90E04600D996B1 /* Frameworks */,
+				480154D31D90E04600D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480154D71D90E04600D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLReportTableViewDemoTests;
+			productName = LMLReportTableViewDemoTests;
+			productReference = 480154D51D90E04600D996B1 /* LMLReportTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		480154DF1D90E04600D996B1 /* LMLReportTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480154EF1D90E04600D996B1 /* Build configuration list for PBXNativeTarget "LMLReportTableViewDemoUITests" */;
+			buildPhases = (
+				480154DC1D90E04600D996B1 /* Sources */,
+				480154DD1D90E04600D996B1 /* Frameworks */,
+				480154DE1D90E04600D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480154E21D90E04600D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLReportTableViewDemoUITests;
+			productName = LMLReportTableViewDemoUITests;
+			productReference = 480154E01D90E04600D996B1 /* LMLReportTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480154B41D90E04400D996B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "优谱德";
+				TargetAttributes = {
+					480154BB1D90E04500D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					480154D41D90E04600D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480154BB1D90E04500D996B1;
+					};
+					480154DF1D90E04600D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480154BB1D90E04500D996B1;
+					};
+				};
+			};
+			buildConfigurationList = 480154B71D90E04400D996B1 /* Build configuration list for PBXProject "LMLReportTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480154B31D90E04400D996B1;
+			productRefGroup = 480154BD1D90E04500D996B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480154BB1D90E04500D996B1 /* LMLReportTableViewDemo */,
+				480154D41D90E04600D996B1 /* LMLReportTableViewDemoTests */,
+				480154DF1D90E04600D996B1 /* LMLReportTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480154BA1D90E04500D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154CF1D90E04600D996B1 /* LaunchScreen.storyboard in Resources */,
+				480154CC1D90E04600D996B1 /* Assets.xcassets in Resources */,
+				480154CA1D90E04600D996B1 /* Main.storyboard in Resources */,
+				480155061D90E07A00D996B1 /* checkR@3x.png in Resources */,
+				480155021D90E07A00D996B1 /* LMLReportController.xib in Resources */,
+				480155041D90E07A00D996B1 /* LMLReportHeadView.xib in Resources */,
+				480155001D90E07A00D996B1 /* LMLReportCell.xib in Resources */,
+				4801550B1D90E4DA00D996B1 /* Media.xcassets in Resources */,
+				480155051D90E07A00D996B1 /* checkR@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154D31D90E04600D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154DE1D90E04600D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480154B81D90E04500D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4801550F1D90E53A00D996B1 /* UIViewExt.m in Sources */,
+				480154C71D90E04500D996B1 /* ViewController.m in Sources */,
+				480154C41D90E04500D996B1 /* AppDelegate.m in Sources */,
+				480155031D90E07A00D996B1 /* LMLReportHeadView.m in Sources */,
+				480155131D90E60A00D996B1 /* WLAlertViewController.m in Sources */,
+				480154C11D90E04500D996B1 /* main.m in Sources */,
+				480154FF1D90E07A00D996B1 /* LMLReportCell.m in Sources */,
+				480155091D90E36D00D996B1 /* LML_Util.m in Sources */,
+				480155011D90E07A00D996B1 /* LMLReportController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154D11D90E04600D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154DA1D90E04600D996B1 /* LMLReportTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154DC1D90E04600D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154E51D90E04600D996B1 /* LMLReportTableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480154D71D90E04600D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480154BB1D90E04500D996B1 /* LMLReportTableViewDemo */;
+			targetProxy = 480154D61D90E04600D996B1 /* PBXContainerItemProxy */;
+		};
+		480154E21D90E04600D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480154BB1D90E04500D996B1 /* LMLReportTableViewDemo */;
+			targetProxy = 480154E11D90E04600D996B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480154C81D90E04600D996B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480154C91D90E04600D996B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480154CD1D90E04600D996B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480154CE1D90E04600D996B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480154E71D90E04600D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		480154E81D90E04600D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480154EA1D90E04600D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLReportTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLReportTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		480154EB1D90E04600D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLReportTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLReportTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		480154ED1D90E04600D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLReportTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLReportTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLReportTableViewDemo.app/LMLReportTableViewDemo";
+			};
+			name = Debug;
+		};
+		480154EE1D90E04600D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLReportTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLReportTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLReportTableViewDemo.app/LMLReportTableViewDemo";
+			};
+			name = Release;
+		};
+		480154F01D90E04600D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLReportTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLReportTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLReportTableViewDemo;
+			};
+			name = Debug;
+		};
+		480154F11D90E04600D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLReportTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLReportTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLReportTableViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480154B71D90E04400D996B1 /* Build configuration list for PBXProject "LMLReportTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154E71D90E04600D996B1 /* Debug */,
+				480154E81D90E04600D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480154E91D90E04600D996B1 /* Build configuration list for PBXNativeTarget "LMLReportTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154EA1D90E04600D996B1 /* Debug */,
+				480154EB1D90E04600D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480154EC1D90E04600D996B1 /* Build configuration list for PBXNativeTarget "LMLReportTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154ED1D90E04600D996B1 /* Debug */,
+				480154EE1D90E04600D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480154EF1D90E04600D996B1 /* Build configuration list for PBXNativeTarget "LMLReportTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154F01D90E04600D996B1 /* Debug */,
+				480154F11D90E04600D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 480154B41D90E04400D996B1 /* Project object */;
+}
