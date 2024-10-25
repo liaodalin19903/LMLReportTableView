@@ -1,11 +1,11 @@
-# LMLReportTableView
-Report/request function tableview.     投诉，举报tableView，可自定义输入举报内容，选择举报类型
-<br>QQ交流群：566966977   不懂可以在群里讨论
+### LMLReportTableView
+Report/request function tableview. it can be customized to report content and select the report type
+<br>QQ group：566966977   
 
-##效果展示图
+#### snapshot
 
 ![img](https://github.com/liaodalin19903/LMLReportTableView/blob/master/LMLReportTableView.gif)
 
-##使用方式：
+#### 使用方式：
 
 请参考demo 或者加QQ群询问：566966977
