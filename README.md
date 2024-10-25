@@ -6,6 +6,4 @@ Report/request function tableview. it can be customized to report content and se
 
 ![img](https://github.com/liaodalin19903/LMLReportTableView/blob/master/LMLReportTableView.gif)
 
-#### 使用方式：
 
-请参考demo 或者加QQ群询问：566966977
